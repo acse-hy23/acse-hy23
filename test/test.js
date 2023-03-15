@@ -3,7 +3,7 @@ const assert = QUnit.assert;
 const Developer = require("../lib/developer.js");
 
 QUnit.test("test example", function (assert) {
-  assert.ok(1 !== 1, "one is equal to one");
+  assert.ok(1 === 1, "one is equal to one");
 });
 
 QUnit.module("Developer", () => {
