@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "qunit",
-    "istanbul": "istanbul cover ./node_modules/qunit/bin/qunit.js",
-    "report": "istanbul report text-summary"
+    "istanbul": "istanbul cover ./node_modules/qunit/bin/qunit.js && istanbul report cobertura",
+    "report": "istanbul report cobertura"
   },
   "keywords": [],
   "author": "",
