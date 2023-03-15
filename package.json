@@ -1,0 +1,17 @@
+{
+  "name": "youhao0809",
+  "version": "1.0.0",
+  "description": "💬 [My Personal Website](https://youhao0809.github.io/)",
+  "main": "index.js",
+  "scripts": {
+    "test": "qunit ./test/test.js",
+    "istanbul": "istanbul cover ./node_modules/qunit/bin/qunit.js ./test/test.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "istanbul": "^0.4.5",
+    "qunit": "^2.19.4"
+  }
+}
