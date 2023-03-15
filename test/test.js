@@ -37,4 +37,41 @@ QUnit.module("Developer", () => {
       "should set the language"
     );
   });
+
+  QUnit.test("code - nodejs", (assert) => {
+    const developer = new Developer("Nicole", "nodejs");
+    assert.equal(
+      developer.code(),
+      'console.log("Hello, Nicole!")',
+      "should return nodejs code"
+    );
+  });
+  
+  QUnit.test("code - java", (assert) => {
+    const developer = new Developer("Nicole", "java");
+    assert.equal(
+      developer.code(),
+      'System.out.println("Hello, Nicole!")',
+      "should return java code"
+    );
+  });
+  
+  QUnit.test("code - python", (assert) => {
+    const developer = new Developer("Nicole", "python");
+    assert.equal(
+      developer.code(),
+      'print("Hello, Nicole!")',
+      "should return python code"
+    );
+  });
+  
+  QUnit.test("code - unsupported language", (assert) => {
+    const developer = new Developer("Nicole", "javascript");
+    assert.throws(
+      () => developer.code(),
+      /Unsupported language: javascript/,
+      "should throw an error for unsupported language"
+    );
+  });
+  
 });
