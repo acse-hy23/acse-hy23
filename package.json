@@ -4,8 +4,9 @@
   "description": "💬 [My Personal Website](https://youhao0809.github.io/)",
   "main": "index.js",
   "scripts": {
-    "test": "qunit ./test/test.js",
-    "istanbul": "istanbul cover ./node_modules/qunit/bin/qunit.js ./test/test.js"
+    "test": "qunit",
+    "istanbul": "istanbul cover ./node_modules/qunit/bin/qunit.js",
+    "report": "istanbul report text-summary"
   },
   "keywords": [],
   "author": "",
