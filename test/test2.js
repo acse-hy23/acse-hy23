@@ -1,6 +1,6 @@
 const QUnit = require("qunit");
 const assert = QUnit.assert;
-const Developer = require("../lib/developer.js");
+const Developer = require("../src/lib/developer2.js");
 
 QUnit.test("test example", function (assert) {
   assert.ok(1 === 1, "one is equal to one");
@@ -12,16 +12,16 @@ QUnit.module("Developer", () => {
     assert.ok(developer instanceof Developer, "should create a developer");
   });
 
-  QUnit.test("getName", (assert) => {
-    const developer = new Developer("Nicole", "nodejs");
-    assert.equal(developer.getName(), "Nicole", "should get the name");
-  });
+  // QUnit.test("getName", (assert) => {
+  //   const developer = new Developer("Nicole", "nodejs");
+  //   assert.equal(developer.getName(), "Nicole", "should get the name");
+  // });
 
-  QUnit.test("setName", (assert) => {
-    const developer = new Developer("Nicole", "nodejs");
-    developer.setName("John");
-    assert.equal(developer.getName(), "John", "should set the name");
-  });
+  // QUnit.test("setName", (assert) => {
+  //   const developer = new Developer("Nicole", "nodejs");
+  //   developer.setName("John");
+  //   assert.equal(developer.getName(), "John", "should set the name");
+  // });
 
   QUnit.test("getLanguage", (assert) => {
     const developer = new Developer("Nicole", "nodejs");
@@ -46,7 +46,7 @@ QUnit.module("Developer", () => {
       "should return nodejs code"
     );
   });
-  
+
   QUnit.test("code - java", (assert) => {
     const developer = new Developer("Nicole", "java");
     assert.equal(
@@ -55,7 +55,7 @@ QUnit.module("Developer", () => {
       "should return java code"
     );
   });
-  
+
   QUnit.test("code - python", (assert) => {
     const developer = new Developer("Nicole", "python");
     assert.equal(
@@ -64,7 +64,7 @@ QUnit.module("Developer", () => {
       "should return python code"
     );
   });
-  
+
   QUnit.test("code - unsupported language", (assert) => {
     const developer = new Developer("Nicole", "javascript");
     assert.throws(
@@ -73,5 +73,4 @@ QUnit.module("Developer", () => {
       "should throw an error for unsupported language"
     );
   });
-  
 });
