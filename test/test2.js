@@ -12,16 +12,16 @@ QUnit.module("Developer", () => {
     assert.ok(developer instanceof Developer, "should create a developer");
   });
 
-  // QUnit.test("getName", (assert) => {
-  //   const developer = new Developer("Nicole", "nodejs");
-  //   assert.equal(developer.getName(), "Nicole", "should get the name");
-  // });
+  QUnit.test("getName", (assert) => {
+    const developer = new Developer("Nicole", "nodejs");
+    assert.equal(developer.getName(), "Nicole", "should get the name");
+  });
 
-  // QUnit.test("setName", (assert) => {
-  //   const developer = new Developer("Nicole", "nodejs");
-  //   developer.setName("John");
-  //   assert.equal(developer.getName(), "John", "should set the name");
-  // });
+  QUnit.test("setName", (assert) => {
+    const developer = new Developer("Nicole", "nodejs");
+    developer.setName("John");
+    assert.equal(developer.getName(), "John", "should set the name");
+  });
 
   QUnit.test("getLanguage", (assert) => {
     const developer = new Developer("Nicole", "nodejs");
