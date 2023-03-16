@@ -12,16 +12,16 @@ QUnit.module("Developer", () => {
     assert.ok(developer instanceof Developer, "should create a developer");
   });
 
-  // QUnit.test("getName", (assert) => {
-  //   const developer = new Developer("Nicole", "nodejs");
-  //   assert.equal(developer.getName(), "Nicole", "should get the name");
-  // });
+  QUnit.test("getName", (assert) => {
+    const developer = new Developer("Nicole", "nodejs");
+    assert.equal(developer.getName(), "Nicole", "should get the name");
+  });
 
-  // QUnit.test("setName", (assert) => {
-  //   const developer = new Developer("Nicole", "nodejs");
-  //   developer.setName("John");
-  //   assert.equal(developer.getName(), "John", "should set the name");
-  // });
+  QUnit.test("setName", (assert) => {
+    const developer = new Developer("Nicole", "nodejs");
+    developer.setName("John");
+    assert.equal(developer.getName(), "John", "should set the name");
+  });
 
   QUnit.test("getLanguage", (assert) => {
     const developer = new Developer("Nicole", "nodejs");
@@ -47,23 +47,23 @@ QUnit.module("Developer", () => {
     );
   });
 
-  // QUnit.test("code - java", (assert) => {
-  //   const developer = new Developer("Nicole", "java");
-  //   assert.equal(
-  //     developer.code(),
-  //     'System.out.println("Hello, Nicole!")',
-  //     "should return java code"
-  //   );
-  // });
+  QUnit.test("code - java", (assert) => {
+    const developer = new Developer("Nicole", "java");
+    assert.equal(
+      developer.code(),
+      'System.out.println("Hello, Nicole!")',
+      "should return java code"
+    );
+  });
 
-  // QUnit.test("code - python", (assert) => {
-  //   const developer = new Developer("Nicole", "python");
-  //   assert.equal(
-  //     developer.code(),
-  //     'print("Hello, Nicole!")',
-  //     "should return python code"
-  //   );
-  // });
+  QUnit.test("code - python", (assert) => {
+    const developer = new Developer("Nicole", "python");
+    assert.equal(
+      developer.code(),
+      'print("Hello, Nicole!")',
+      "should return python code"
+    );
+  });
 
   QUnit.test("code - unsupported language", (assert) => {
     const developer = new Developer("Nicole", "javascript");
