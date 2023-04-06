@@ -1,0 +1,14 @@
+name: Test Workflow
+on: push
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v3
+    - name: Install dependencies
+      run: npm install
+    - name: Run tests
+      uses: YouHao0809/show-ut-coverage # This will use the action in the current directory
+      with:
+        github-token: ${{ secrets.GITHUB_TOKEN }}
