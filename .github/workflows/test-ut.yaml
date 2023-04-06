@@ -9,6 +9,6 @@ jobs:
     - name: Checkout code
       uses: actions/checkout@v3
     - name: Run tests
-      uses: YouHao0809/show-ut-coverage@v0.3.1
+      uses: YouHao0809/show-ut-coverage@v0.3.2
       with:
         github-token: ${{ secrets.GITHUB_TOKEN }}
