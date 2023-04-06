@@ -8,8 +8,6 @@ jobs:
     steps:
     - name: Checkout code
       uses: actions/checkout@v3
-    - name: Install dependencies
-      run: npm install
     - name: Run tests
       uses: YouHao0809/show-ut-coverage@v0.3.1
       with:
