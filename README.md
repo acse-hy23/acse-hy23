@@ -2,7 +2,7 @@
 
 <!-- 💬 [My Personal Website](https://youhao0809.github.io/) -->
 
-🔭 I’m currently working on SAP UI5 and CI/CD
+🔭 I’m currently working on LLM & LangChain
 
 <img align="left" height="200" src="https://github-readme-stats.vercel.app/api/top-langs/?username=YouHao0809&layout=compact&theme=tokyonight&hide=html&card_width=350,assembly&langs_count=10" alt="Top Langs" /><img align="left" height="200" src="https://github-readme-stats.vercel.app/api?username=YouHao0809&count_private=true&show_icons=true&theme=tokyonight" alt="YouHao0809's GitHub stats" />
 
