@@ -4,7 +4,7 @@
 
 🔭 I’m currently working on LLM & LangChain
 
-<img align="left" height="200" src="https://github-readme-stats.vercel.app/api/top-langs/?username=acse-hy23&layout=compact&theme=tokyonight&hide=html&card_width=350,assembly&langs_count=10" alt="Top Langs" /><img align="left" height="200" src="https://github-readme-stats.vercel.app/api?username=acse-hy23&count_private=true&show_icons=true&theme=tokyonight" alt="YouHao's GitHub stats" />
+<img align="left" height="200" src="https://github-readme-stats.vercel.app/api/top-langs/?username=acse-hy23&layout=compact&theme=tokyonight&hide=html&card_width=350,assembly&langs_count=10" alt="Top Langs" />
 
 
 
