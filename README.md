@@ -1,5 +1,7 @@
 ### Hi there 👋 
 
+[![wakatime](https://wakatime.com/badge/user/76ce2517-4be4-4de9-9795-12feb9bb347d.svg)](https://wakatime.com/@76ce2517-4be4-4de9-9795-12feb9bb347d)
+
 <!-- 💬 [My Personal Website](https://youhao0809.github.io/) -->
 
 🔭 I’m currently working on LLM & LangChain
